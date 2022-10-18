@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imageback"
+    android:orientation="vertical"
+    tools:context=".Afficher_tout">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/StyleH1"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:paddingTop="25dp"
+        android:text="Contacts :"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/recher_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="recherche"
+        android:inputType="textPersonName" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

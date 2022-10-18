@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imageback"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    tools:context=".Ajouter">
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/StyleH1"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:text="Ajouter"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_nom_edit"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:paddingTop="15dp"
+            android:text="  Nom:"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ed_nom_edit"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_pass_main"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:paddingTop="15dp"
+            android:text="Prenom:"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ed_prenom_edit"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_pass_main"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:paddingTop="15dp"
+            android:text="  Tel:"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ed_tel_edit"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_modifier_modifier"
+            style="@style/styleButton"
+            android:layout_width="5dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:background="@color/purple_200"
+            android:paddingLeft="20dp"
+            android:text="Ajouter"
+            android:textSize="15dp"
+            app:iconTint="#0C0C0C"
+            app:strokeColor="#070707" />
+
+        <Button
+            android:id="@+id/btn_cancel_modifier"
+            android:layout_width="5dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:background="@color/purple_200"
+            android:paddingLeft="20dp"
+            android:text="Cancel"
+            android:textSize="15dp" />
+    </LinearLayout>
+</LinearLayout>
